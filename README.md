@@ -1,6 +1,6 @@
 # gogoout-ui-library
 
-## getting started
+## Getting started
 
 安裝相關依賴
 
@@ -18,13 +18,14 @@ yarn storybook
 
 p.s. 這兩個指令只有在 `新增/刪除路徑` 時才需使用，一般情況下若單純修改 stories 的內容使用 `yarn storybook 即可`
 
-更新 stories 一次
+
+- 更新 stories 一次
 
 ```
 yarn update-stories
 ```
 
-監聽 stories 的變化
+- 監聽 stories 的變化
 
 ```
 yarn storybook-watcher
