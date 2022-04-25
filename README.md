@@ -46,8 +46,14 @@ npm version SET_YOUR_VERSION && npm publish
 
 ## 部署靜態檔到 github pages
 
-產生靜態檔
+先產生靜態檔 storybook-static
 
 ```
 yarn build-storybook
+```
+
+部署到 github pages
+
+```
+yarn deploy-storybook
 ```
